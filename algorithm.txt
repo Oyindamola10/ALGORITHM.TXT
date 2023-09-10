@@ -1,0 +1,14 @@
+Problem: Algorithm to read a sentence to determine:
+1) Words count
+2)Vowel count
+
+Solution
+-create variable to hold
+   sentence, wordCount, vowelChar, vowelCount
+-Read the sentence
+-On getting to a space add 1 to wordCount
+-continue counting until getting to point
+-Read vowelChar(a,e,i,o,u)
+-Read sentence char by char
+-If sentence char match any vowelChar
+-Add 1 to vowelCount
